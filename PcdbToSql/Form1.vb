@@ -3656,24 +3656,6 @@ Partial Public Class Form1
 
         SuccessLabel.Visible = True
 
-        'Dim connStr As String = MySqlTools.ConnectionString(MySqlServerTextEdit.Text, UserIdTextEdit.Text, PasswordTextEdit.Text,
-        '                                                    MySqlPcdbNameTextEdit.Text, PersistSecurityInfoCheckBox.Checked, GetSslMode)
-        'Using conn As New MySqlConnection(connStr)
-        '    Using cmd As New MySqlCommand("CabTest", conn)
-        '        cmd.CommandType = CommandType.StoredProcedure
-        '        'cmd.Parameters.AddWithValue("TravelId", 100)
-        '        cmd.Parameters.AddWithValue("TRAVELID", 100)
-        '        Using sda As New MySqlDataAdapter(cmd)
-        '            Dim dt As New DataTable
-        '            Dim rowCount As Integer = sda.Fill(dt)
-        '            MessageBox.Show(String.Format("rowCount = {0}", rowCount))
-        '            If rowCount > 0 Then
-        '                MessageBox.Show(String.Format("Cab Fares: {0:C} for TravelId: {1}", dt.Rows(0)(0), 100), "Success!")
-        '            End If
-        '        End Using
-        '    End Using
-        'End Using
-
     End Sub
 
     Private Sub SimpleButton1_Click(sender As Object, e As EventArgs) Handles SimpleButton1.Click
